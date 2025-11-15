@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "name": "OPTIONS request for CORS",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Create new order",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "items": [{"id": 1, "name": "Test Product", "price": 100}],
+        "total_price": 100,
+        "user_email": "test@example.com"
+      },
+      "expectedStatus": 200
+    }
+  ]
+}

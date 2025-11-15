@@ -1,0 +1,5 @@
+{
+  "payment": "https://functions.poehali.dev/72709ffc-08e4-4ecb-a7bd-2fa952ad478f",
+  "orders": "https://functions.poehali.dev/f435cdad-2c73-4983-86bd-c8916804b952",
+  "telegram-bot": "https://functions.poehali.dev/dec4a832-3b13-4a8d-9da1-277ab03c7e47"
+}
